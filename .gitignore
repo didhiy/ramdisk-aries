@@ -1,0 +1,4 @@
+*~
+*.zip
+cwm/boot.img
+jb-4.1/files/modules/*.ko
