@@ -1,5 +1,5 @@
 show_progress(0.100000, 1);
-ui_print("Installing Semaphore kernel...");
+ui_print("Installing GS1 NTT-Docomo SC-02B kernel...");
 ui_print("		                                             ");
 
 #mount partitions

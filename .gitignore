@@ -2,3 +2,4 @@
 *.zip
 cwm/boot.img
 jb-4.1/files/modules/*.ko
+jb-4.2/files/modules/*.ko
