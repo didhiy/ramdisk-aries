@@ -33,6 +33,3 @@
 
 # for GPS
 /dev/s3c2410_serial1      0600   gps        gps
-
-# for FM Radio
-/dev/radio0               0666   system     audio

@@ -20,7 +20,7 @@ on init
 
     # We will create our own ril-daemon service in class 'core' because the
     # rild doesn't like being killed. (During device encryption.)
-    stop ril-daemon
+    # stop ril-daemon
 
 on boot
     mount debugfs /sys/kernel/debug /sys/kernel/debug
@@ -112,12 +112,12 @@ on post-fs-data
 
     setprop vold.post_fs_data_done 1
 
-service aries-ril-daemon /system/bin/rild
-    class core
-    socket rild stream 660 root radio
-    socket rild-debug stream 660 radio system
-    user root
-    group radio cache inet misc audio log
+# service aries-ril-daemon /system/bin/rild
+#    class core
+#    socket rild stream 660 root radio
+#    socket rild-debug stream 660 radio system
+#    user root
+#    group radio cache inet misc audio log
 
 # 3D init
 service pvrsrvinit /system/vendor/bin/pvrsrvinit
@@ -165,6 +165,9 @@ service bdaddr /system/bin/bdaddr_read
 
 on property:ril.bt_macaddr=*
     start bdaddr
+
+on property:init.svc.bootanim=stopped
+    restart ril-daemon
 
 # bugreport is triggered by holding down volume down, volume up and power
 # service bugreport /system/bin/dumpstate -d -v -o /sdcard/bugreports/bugreport
