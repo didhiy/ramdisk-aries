@@ -5,3 +5,5 @@ jb-4.1/files/modules/*.ko
 jb-4.2/files/modules/*.ko
 mackay/boot.img
 mackay/system/lib/modules/*.ko
+stock/boot.img
+stock/system/lib/modules/*.ko
