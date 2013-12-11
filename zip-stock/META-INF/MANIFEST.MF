@@ -1,0 +1,72 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: boot.img
+SHA1-Digest: UxM48m66ZjaJdrp8bXHVJPbpgD4=
+
+Name: system/lib/modules/scsi_wait_scan.ko
+SHA1-Digest: zhg54vnIW3Lze8CzXGciox/GawE=
+
+Name: system/lib/libSEC_OMX_Core.so
+SHA1-Digest: d4jMaGj12D9sxmSP0evMTjd8vqE=
+
+Name: system/lib/modules/ansi_cprng.ko
+SHA1-Digest: G3UDLU5i/27lo+8IzSw2RinZtKk=
+
+Name: system/lib/libOMX.SEC.AVC.Encoder.so
+SHA1-Digest: 8zhuDWMEW9sU9h7vIddj6oRtgH4=
+
+Name: system/lib/modules/gspca_main.ko
+SHA1-Digest: TBgQdlEoeVRczN2RPK1rzDpmqsk=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: WzlW9mXrkfm5nHYtRvC85MowAwU=
+
+Name: system/lib/modules/cifs.ko
+SHA1-Digest: tb9JLyh8YhpH1xom5PhXLFBK61M=
+
+Name: bml_over_mtd.sh
+SHA1-Digest: ilfVG5iofhUcwaC81NmWRIKpKkg=
+
+Name: system/mackay/aromafm.zip.cfg
+SHA1-Digest: pMRd+zyc6WEAmV+9z99XxOvJfog=
+
+Name: system/lib/libOMX.SEC.M4V.Decoder.so
+SHA1-Digest: DwQl/zhA0AotZapmB618mNve2nQ=
+
+Name: flash_image
+SHA1-Digest: ZwHu4xEe6ydPUjba8+WsVsMCKkU=
+
+Name: system/lib/libstagefright_omx.so
+SHA1-Digest: /JNgMXg8U84AAU5Wa+WNePSzBN8=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: B0ZG9QaXUddCcfVtJfz/BSDKXZA=
+
+Name: system/lib/modules/nls_utf8.ko
+SHA1-Digest: +++i1rhjmP0FyQZWI28yZ5fs2wA=
+
+Name: system/lib/libOMX.SEC.M4V.Encoder.so
+SHA1-Digest: o1p1cIA13HCWSUlTqfgUwOV+wmk=
+
+Name: system/lib/libOMX.SEC.AVC.Decoder.so
+SHA1-Digest: cTxqXGyXaxJ8brugJCpU37Xd+k4=
+
+Name: system/lib/modules/fuse.ko
+SHA1-Digest: ZPTR4ORDL7tG9Kj/PXxM4brHVR4=
+
+Name: system/lib/modules/bcmdhd.ko
+SHA1-Digest: AiKqPLBbqTVbCYGgfU0o5pvWPGU=
+
+Name: bml_over_mtd
+SHA1-Digest: A0ACuT08jzWBGOIIHFLQD80/iLU=
+
+Name: system/lib/hw/lights.aries.so
+SHA1-Digest: Crv+2GMaT2PKKIbUQNoZvwje69c=
+
+Name: system/mackay/aromafm.zip
+SHA1-Digest: EiaYF36bem5Vqh+VLo88tRIwI2A=
+
+Name: erase_image
+SHA1-Digest: EfdWzmEbP1NGC0+HcLQevTsPmM4=
+
