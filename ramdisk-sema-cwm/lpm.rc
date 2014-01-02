@@ -13,6 +13,9 @@ on boot
 
     chmod 775 /charger
 
+## Fix charging not working
+    chmod 755 /charger
+
 ## Daemon processes to be run by init.
 ##
 service ueventd /sbin/ueventd
