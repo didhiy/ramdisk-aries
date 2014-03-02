@@ -259,7 +259,6 @@
 
 # LVM
 /dev/mapper/lvpool-(.*)                             u:object_r:block_device:s0
-
 #line 1 "vendor/cm/sepolicy/file_contexts"
 /cache/dalvik-cache(/.*)? u:object_r:dalvikcache_data_file:s0
 
